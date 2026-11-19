@@ -2,6 +2,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
 import Aulas from "./pages/Aulas";
 import Desenvolvedor from "./pages/Desenvolvedor";
+import Estudos from "./pages/Estudos";
 
 //** Novo app.tsx
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/aulas" element={<Aulas />}/>
         <Route path="/desenvolvedor" element={<Desenvolvedor />}/>
+        <Route path="/estudos" element={<Estudos />} />
       </Routes>
     </BrowserRouter>
   )
